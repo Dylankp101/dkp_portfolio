@@ -1,0 +1,230 @@
+
+
+.navbar{
+	background-color:black;
+}
+.footer{
+	background-color:black;
+	text-align: center;
+	color: white;
+}
+.bg-animated{
+	width: 100%;
+	height: 100vh;
+	background-image: url(/static/img/mananddog.jpg);
+	background-size: cover;
+	background-position:center;
+	position: relative;
+	overflow:hidden;
+}
+.navbar-brand{
+	color:white;
+	font-family: 'Major Mono Display', monospace;
+}
+.head1{
+    text-align: center;
+    font-size: 8vw;
+    color: white;
+    margin-top: 10%;
+	font-family: 'Quantico', sans-serif;
+}
+.head2{
+    text-align: center;
+    font-size: 8vw;
+    color: white;
+    margin-top: 2%;
+	font-family: 'Quantico', sans-serif;
+}
+.skills-bg{
+	background-color:#000000;
+}
+.btn{
+	font-family: 'Major Mono Display', monospace;
+}
+.btn:hover {
+    color: #9ee6d5;
+    background-color: #f7891e;
+}
+.font1{
+	font-family: 'Major Mono Display', monospace;
+    margin-bottom: 10%;
+    font-size: 2.5vw;
+}
+.font2{
+	font-family: 'Quantico', sans-serif;
+}
+.font3{
+    font-family: 'Press Start 2P', cursive;
+    color: green;
+    font-size: 1.5vw;
+}
+.font7{
+    font-family: 'Press Start 2P', cursive;
+    color: orange;
+    font-size: 1.5vw;
+}
+.font4{
+    font-family: 'Rock Salt', cursive;
+}
+.font5{
+    font-family: 'Special Elite', cursive;
+	font-size: 2vw;
+}
+.font51{
+    font-family: 'Special Elite', cursive;
+    font-size: 2vw;
+}
+.font51:hover{
+    color: red;
+}
+.font15{
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5vw;
+    }
+.font6{
+	font-family: 'Quantico', sans-serif;
+	font-size: 4.5vh;
+	color: white;
+}
+.hoverlink:hover{
+    opacity: 0.4;
+}
+.rocket{
+	padding: 5px;
+	position: center;
+	animation-name: fly;
+	animation-duration: 10s;
+	animation-delay:3s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket2{
+	padding: 5px;
+	position: center;
+	animation-name: fly2;
+	animation-duration: 6.5s;
+	animation-delay:2s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly2{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket3{
+	padding: 5px;
+	position: center;
+	animation-name: fly3;
+	animation-duration: 4.5s;
+	animation-delay:3s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly3{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket4{
+	padding: 5px;
+	position: center;
+	animation-name: fly4;
+	animation-duration: 8s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly4{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket5{
+	padding: 5px;
+	position: center;
+	animation-name: fly5;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly5{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+
+.rocket6{
+	padding: 5px;
+	position: center;
+	animation-name: fly6;
+	animation-duration: 4s;
+	animation-delay:1s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly6{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket7{
+	padding: 5px;
+	position: center;
+	animation-name: fly7;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-delay:2s;
+	animation-iteration-count: 1;	
+}
+@keyframes fly7{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket8{
+	padding: 5px;
+	position: center;
+	animation-name: fly8;
+	animation-duration: 6s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly8{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket9{
+	padding: 5px;
+	position: center;
+	animation-name: fly9;
+	animation-duration: 7s;
+	animation-delay:5s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly9{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket10{
+	padding: 5px;
+	position: center;
+	animation-name: fly10;
+	animation-duration: 9s;
+	animation-delay:4s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly10{
+	from{ transform: translateY(1100px)}
+	to{ transform: translateY(-1100px)}
+}
+.ufo{
+	position: center;
+	animation-name: ufofly;
+	animation-duration: 8s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;	
+}
+@keyframes ufofly{
+	from{ transform: translateX(1700px)}
+	to{ transform: translateX(-900px)}
+}
