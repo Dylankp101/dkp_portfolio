@@ -106,7 +106,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly2;
-	animation-duration: 6.5s;
+	animation-duration: 16.5s;
 	animation-delay:2s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
@@ -119,7 +119,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly3;
-	animation-duration: 4.5s;
+	animation-duration: 14.5s;
 	animation-delay:3s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
@@ -132,7 +132,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly4;
-	animation-duration: 8s;
+	animation-duration: 18s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
 }
@@ -144,7 +144,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly5;
-	animation-duration: 7s;
+	animation-duration: 8s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
 }
@@ -157,7 +157,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly6;
-	animation-duration: 4s;
+	animation-duration: 24s;
 	animation-delay:1s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
@@ -170,7 +170,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly7;
-	animation-duration: 5s;
+	animation-duration: 14s;
 	animation-fill-mode: both;
 	animation-delay:2s;
 	animation-iteration-count: 1;	
@@ -183,7 +183,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly8;
-	animation-duration: 6s;
+	animation-duration: 17s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
 }
@@ -195,7 +195,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly9;
-	animation-duration: 7s;
+	animation-duration: 13s;
 	animation-delay:5s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
@@ -208,7 +208,7 @@
 	padding: 5px;
 	position: center;
 	animation-name: fly10;
-	animation-duration: 9s;
+	animation-duration: 29s;
 	animation-delay:4s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
@@ -217,7 +217,7 @@
 	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
-.ufo{
+/* .ufo{
 	position: center;
 	animation-name: ufofly;
 	animation-duration: 8s;
@@ -225,6 +225,6 @@
 	animation-iteration-count: infinite;	
 }
 @keyframes ufofly{
-	from{ transform: translateX(1700px)}
-	to{ transform: translateX(-900px)}
-}
+	from{ transform: translateX(0px)}
+	to{ transform: translateX(300px)}
+} */
